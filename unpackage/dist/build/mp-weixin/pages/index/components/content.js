@@ -1,0 +1,10 @@
+(global["webpackJsonp"]=global["webpackJsonp"]||[]).push([["pages/index/components/content"],{"2bb4":function(t,e,n){"use strict";var a=n("969e"),i=n.n(a);i.a},"5e65":function(t,e,n){"use strict";var a;n.d(e,"b",(function(){return i})),n.d(e,"c",(function(){return o})),n.d(e,"a",(function(){return a}));var i=function(){var t=this,e=t.$createElement;t._self._c},o=[]},"62e5":function(t,e,n){"use strict";Object.defineProperty(e,"__esModule",{value:!0}),e.default=void 0;var a=n("d493"),i={name:"cont",props:{tab:Array},data:function(){return{num:"",contentdata:[{title:"推荐",labei:"猜你喜欢"},{title:"好景点",labei:"周末放空"},{title:"人文",labei:"文化之旅"},{title:"海岛",labei:"阳光与沙滩"},{title:"自由行",labei:"超值精选"},{title:"情侣",labei:"别样的浪漫"},{title:"网红",labei:"最火打卡地"}]}},methods:{tabs:function(t,e){var n=this;this.num=t;var i=!0,o=0,r=!1,u=!1,c="loading",l={loading:i,pageid:o,nav:e,uniload:r,nonedata:u,stateload:c};this.$store.commit("navmuta",l);var s="Commodity",f=e,d=0;(0,a.homelist)(s,f,d).then((function(t){if(0===t.data.length){var e=!0;n.$store.commit("nonemuta",e)}else{var a=!1;n.$store.commit("nonemuta",a)}var i=t.data;n.$store.commit("listmuta",i);var o=!1;n.$store.commit("loadmuta",o)})).catch((function(t){console.log(t)}))}}};e.default=i},7758:function(t,e,n){"use strict";n.r(e);var a=n("5e65"),i=n("b7ba");for(var o in i)"default"!==o&&function(t){n.d(e,t,(function(){return i[t]}))}(o);n("2bb4");var r,u=n("f0c5"),c=Object(u["a"])(i["default"],a["b"],a["c"],!1,null,"53256283",null,!1,a["a"],r);e["default"]=c.exports},"969e":function(t,e,n){},b7ba:function(t,e,n){"use strict";n.r(e);var a=n("62e5"),i=n.n(a);for(var o in a)"default"!==o&&function(t){n.d(e,t,(function(){return a[t]}))}(o);e["default"]=i.a}}]);
+;(global["webpackJsonp"] = global["webpackJsonp"] || []).push([
+    'pages/index/components/content-create-component',
+    {
+        'pages/index/components/content-create-component':(function(module, exports, __webpack_require__){
+            __webpack_require__('543d')['createComponent'](__webpack_require__("7758"))
+        })
+    },
+    [['pages/index/components/content-create-component']]
+]);
